@@ -4,7 +4,7 @@ from tqdm import tqdm
 import pickle as pkl
 import base64
 
-encoding_path = "llama_superstring_encodings"
+encoding_path = "superstring_encodings"
 instance_dict = dict()
 dirs = os.listdir(encoding_path)
 
