@@ -7,4 +7,9 @@ The goal of the tasks contained within this directory is to test the token-level
    python find_superstrings.py
    python generate_instance_dict.py
    ```
-2) Navigate to the directories of the individual tasks for instructions on how to run them 
+2) Navigate to the directories of the individual tasks
+3) Execute the following command
+```
+python filter_valid_tokens.py
+python generate.py
+```
