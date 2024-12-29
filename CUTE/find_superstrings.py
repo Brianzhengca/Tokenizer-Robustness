@@ -66,7 +66,7 @@ def search_tokens(tokens_of_interest):
                 contexts_per_token[token_of_interest][context] += 1
 
     # Save results per token
-    output_dir = Path("llama_superstring_encodings")
+    output_dir = Path("superstring_encodings")
     output_dir.mkdir(exist_ok=True)
     for token in tokens_of_interest:
         results = []
@@ -88,7 +88,7 @@ batch_size = 1000
 for i in range(27000, len(vocab), batch_size):
     batch = vocab[i:i+batch_size]
     # Skip tokens already processed
-    batch_to_process = [t for t in batch if not os.path.exists(f"llama_superstring_encodings/{t}.jsonl")]
+    batch_to_process = [t for t in batch if not os.path.exists(f"superstring_encodings/{t}.jsonl")]
     if not batch_to_process:
         continue
 
