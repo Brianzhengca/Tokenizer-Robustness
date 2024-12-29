@@ -11,7 +11,7 @@ print("Filtering Tokens...")
 valid_tokens = []
 
 for key, value in tqdm(instance_dict.items()):
-    occurrence = sum(1 for _ in open(f"../../superstring_encodings/{key}.jsonl"))
+    occurrence = sum(1 for _ in open(f"../superstring_encodings/{key}.jsonl"))
     if ((value == 1 and 5 <= len(key) <= 15) or (value > 5 and 5 <= len(key) <= 15)) and 50 < occurrence < 500:
         valid_tokens.append([key, value])
 
