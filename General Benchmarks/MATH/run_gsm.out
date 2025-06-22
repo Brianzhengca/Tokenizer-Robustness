@@ -1,18 +1,0 @@
-no change     /gscratch/ark/zhengbr/miniconda3/condabin/conda
-no change     /gscratch/ark/zhengbr/miniconda3/bin/conda
-no change     /gscratch/ark/zhengbr/miniconda3/bin/conda-env
-no change     /gscratch/ark/zhengbr/miniconda3/bin/activate
-no change     /gscratch/ark/zhengbr/miniconda3/bin/deactivate
-no change     /gscratch/ark/zhengbr/miniconda3/etc/profile.d/conda.sh
-no change     /gscratch/ark/zhengbr/miniconda3/etc/fish/conf.d/conda.fish
-no change     /gscratch/ark/zhengbr/miniconda3/shell/condabin/Conda.psm1
-no change     /gscratch/ark/zhengbr/miniconda3/shell/condabin/conda-hook.ps1
-no change     /gscratch/ark/zhengbr/miniconda3/lib/python3.12/site-packages/xontrib/conda.xsh
-no change     /gscratch/ark/zhengbr/miniconda3/etc/profile.d/conda.csh
-no change     /mmfs1/home/zhengbr/.bashrc
-No action taken.
-
-CondaError: Run 'conda init' before 'conda activate'
-
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.69s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.63s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.37s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.04it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.17s/it]
-Processing Sentences:   0%|          | 0/5000 [00:00<?, ?sentence/s]Processing Sentences:   2%|▏         | 84/5000 [00:00<00:05, 833.44sentence/s]Processing Sentences:   3%|▎         | 169/5000 [00:00<00:05, 843.09sentence/s]Processing Sentences:   5%|▌         | 254/5000 [00:00<00:05, 829.86sentence/s]Processing Sentences:   7%|▋         | 349/5000 [00:00<00:05, 869.92sentence/s]Processing Sentences:   9%|▉         | 443/5000 [00:00<00:05, 892.53sentence/s]Processing Sentences:  11%|█         | 533/5000 [00:00<00:05, 887.57sentence/s]Processing Sentences:  12%|█▏        | 622/5000 [00:00<00:05, 798.72sentence/s]Processing Sentences:  14%|█▍        | 704/5000 [00:00<00:05, 762.34sentence/s]Processing Sentences:  16%|█▌        | 782/5000 [00:00<00:05, 765.81sentence/s]Processing Sentences:  17%|█▋        | 860/5000 [00:01<00:05, 738.14sentence/s]Processing Sentences:  19%|█▊        | 935/5000 [00:01<00:05, 692.53sentence/s]Processing Sentences:  20%|██        | 1006/5000 [00:01<00:05, 681.71sentence/s]Processing Sentences:  22%|██▏       | 1075/5000 [00:01<00:05, 676.92sentence/s]Processing Sentences:  23%|██▎       | 1144/5000 [00:01<00:06, 604.54sentence/s]Processing Sentences:  24%|██▍       | 1206/5000 [00:01<00:06, 604.28sentence/s]Processing Sentences:  26%|██▌       | 1278/5000 [00:01<00:05, 629.54sentence/s]Processing Sentences:  27%|██▋       | 1342/5000 [00:01<00:05, 613.51sentence/s]Processing Sentences:  28%|██▊       | 1406/5000 [00:01<00:05, 619.60sentence/s]Processing Sentences:  29%|██▉       | 1469/5000 [00:02<00:06, 547.79sentence/s]slurmstepd: error: *** JOB 23043177 ON g3112 CANCELLED AT 2024-12-25T10:03:34 ***
