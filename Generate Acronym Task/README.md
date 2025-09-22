@@ -1,2 +1,3 @@
 # Instructions
-```source run_acronym.sh```
+- `source run_acronym.sh`
+- `python evaluate_acronym.py`
