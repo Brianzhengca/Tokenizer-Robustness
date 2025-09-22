@@ -1,0 +1,10 @@
+{
+    "num_examples": 6000,
+    "accuracy": 0.0,
+    "contains_char_accuracy": 0.0,
+    "del_char_accuracy": 0.0,
+    "ins_char_accuracy": 0.0,
+    "spell_accuracy": 0.0,
+    "sub_char_accuracy": 0.0,
+    "swap_char_accuracy": 0.0
+}

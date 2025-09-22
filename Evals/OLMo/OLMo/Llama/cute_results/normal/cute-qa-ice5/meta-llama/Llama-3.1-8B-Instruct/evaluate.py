@@ -1,0 +1,27 @@
+import json
+import re
+
+from collections import defaultdict
+
+dictionary = defaultdict(list)
+
+# adjust this path to your file
+INPUT_PATH = "predictions.jsonl"
+
+total = 0
+correct = 0
+with open(INPUT_PATH, "r") as f:
+    for i, line in enumerate(f, 1):
+        obj = json.loads(line)
+        output = obj.get("output", "")
+        gold_choice = obj.get("answer")
+        if (gold_choice.lower() in output.lower()):
+            dictionary[obj.get("split")].append(1)
+            correct += 1
+        else:
+            dictionary[obj.get("split")].append(0)
+        total += 1
+print(correct / total)
+
+for key, value in dictionary.items():
+    print(key, sum(value) / len(value))
