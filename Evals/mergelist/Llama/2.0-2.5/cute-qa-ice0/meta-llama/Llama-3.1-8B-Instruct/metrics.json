@@ -1,0 +1,18 @@
+{
+    "num_examples": 994,
+    "accuracy": 0.0,
+    "contains_char_accuracy": 0.0,
+    "contains_word_accuracy": 0.0,
+    "del_char_accuracy": 0.0,
+    "del_word_accuracy": 0.0,
+    "ins_char_accuracy": 0.0,
+    "ins_word_accuracy": 0.0,
+    "orth_accuracy": 0.0,
+    "sem_accuracy": 0.0,
+    "spell_accuracy": 0.0,
+    "spell_inverse_accuracy": 0.0,
+    "sub_char_accuracy": 0.0,
+    "sub_word_accuracy": 0.0,
+    "swap_char_accuracy": 0.0,
+    "swap_word_accuracy": 0.0
+}
