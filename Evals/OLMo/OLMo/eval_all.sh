@@ -11,7 +11,6 @@
 source ~/.bashrc
 conda deactivate
 conda activate open-instruct-run
-export HF_TOKEN=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
 
 model_name=mistralai/Mistral-7B-Instruct-v0.3
 qa_format=qa

@@ -12,7 +12,6 @@
 source ~/.bashrc
 conda deactivate
 conda activate open-instruct-run
-export HF_TOKEN=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
 
 cat $0
 echo "--------------------"
