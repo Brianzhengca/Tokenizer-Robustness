@@ -8,13 +8,11 @@ Secretly Handle Non-Canonical Tokenizations](https://arxiv.org/pdf/2506.19004) I
 ## Citation
 If you find our work helpful, please cite this paper at 
 ```
-@misc{zheng2025brokentokenslanguagemodel,
-      title={Broken Tokens? Your Language Model can Secretly Handle Non-Canonical Tokenizations}, 
-      author={Brian Siyuan Zheng and Alisa Liu and Orevaoghene Ahia and Jonathan Hayase and Yejin Choi and Noah A. Smith},
-      year={2025},
-      eprint={2506.19004},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2506.19004}, 
+@inproceedings{zheng-etal-2025-broken,
+    title={Broken Tokens? Your Language Model can Secretly Handle Non-Canonical Tokenizations},
+    author={Brian Siyuan Zheng and Alisa Liu and Orevaoghene Ahia and Jonathan Hayase and Yejin Choi and Noah A. Smith},
+    booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+    year={2025},
+    url={https://openreview.net/forum?id=WrYWolqKh3}
 }
 ```
